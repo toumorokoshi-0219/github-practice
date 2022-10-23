@@ -1,0 +1,19 @@
+.box {
+  border: 3px solid blue;
+
+  /* 中にスペースを追加 */
+  padding: 30px;
+
+  /* 外にスペースを追加 */
+  margin: 10px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+
+  border: 3px solid palevioletred;
+  padding: 10px;
+}
+.flex--around {
+  justify-content: space-around;
+}
